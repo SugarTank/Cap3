@@ -6,8 +6,9 @@ set :application, "Cap3"
 # deploy directory on the server. Will be ie: '/var/www/myapp_production'
 set :deploy_to, -> { "/var/www/#{fetch(:application)}_#{fetch(:stage)}" }
 
+set :repo_url, 'git@gitlab.com.vn:allvoes/cap3.git'
 
-set :repository,  'https://gitlab.oro.com.vn/allvoes/Cap2.git'
+set :repository,  'https://gitlab.oro.com.vn/allvoes/cap3.git'
 set :scm_username, "allvoes"
 set :scm_password, "notagain159"
 set :scm, :git
