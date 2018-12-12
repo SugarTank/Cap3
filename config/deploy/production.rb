@@ -1,7 +1,6 @@
 # ssh configuration options. Make sure the following works: $ ssh <deploy_user>@<server_ip>
 server '172.30.4.201', user: 'deploy', roles: %w{web app db}
-
-
+# RAILS_ENV=production SECRET_KEY_BASE=production_test_key rails c
 # only if your app already has a domain, then add:
 # set :nginx_server_name, 'mydomain.com'
 

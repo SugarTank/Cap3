@@ -53,7 +53,7 @@ group :development do
   gem 'capistrano', '>= 3.2.1'
   gem 'capistrano-rails', '~> 1.0'           # automatic migrations and asset compilation
   gem 'capistrano-bundler', '~> 1.1.2'       # support for bundler
-  gem 'capistrano-ssh-doctor'                # helps with debugging ssh-agent forwarding
+  gem 'capistrano-ssh-doctor' 
 end
 
 group :test do
